@@ -1,4 +1,4 @@
-# WELCOME TO HOW-TO 2's Application
+# HOW-TO Application
 
 A React application to browse, post, and vote on life hacks.
 Built with React on the front end, Node.js on the back end. 
