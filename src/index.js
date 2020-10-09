@@ -11,10 +11,13 @@ import reducers from "./store/reducer";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+// Redux store creation
 const store = createStore(reducers, applyMiddleware(thunk, logger));
 
 ReactDOM.render(
+	// link store to app
 	<Provider store={store}>
+		{/* link router to app */}
 		<Router>
 			<React.StrictMode>
 				<App />

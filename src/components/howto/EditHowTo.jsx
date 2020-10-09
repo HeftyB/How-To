@@ -13,6 +13,7 @@ const initialForm = {
 	cat: "Health",
 };
 
+// component to edit user's post
 export const EditHowTo = ({ editPost, deletePost }) => {
 	const { id } = useParams();
 	const [currentPost, setCurrentPost] = useState();

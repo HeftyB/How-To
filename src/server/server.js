@@ -1,3 +1,5 @@
+// simple api for testing w/o BE
+
 require("dotenv").config({ path: ".env" });
 
 const express = require("express");

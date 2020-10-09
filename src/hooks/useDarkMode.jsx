@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import useLocalStorage from "./useLocalStorage";
 
+// custom hook for persitent dark mode using local storage
 export default function useDarkMode() {
 	const [someValue, setsomeValue] = useLocalStorage("Dark Mode");
 

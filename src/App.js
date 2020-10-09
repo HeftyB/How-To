@@ -20,6 +20,7 @@ function App() {
 				<Header />
 				<hr className="my-2" />
 				<Bars />
+				{/* routed components */}
 				<Switch>
 					<Route path={"/Login"} component={RegisterLogin} />
 					<Route path={"/Contact"} component={Contact} />

@@ -4,6 +4,7 @@ import { getMyPost } from "../../store/actions";
 import { Button, Popover, PopoverHeader, PopoverBody } from "reactstrap";
 import { Link } from "react-router-dom";
 
+// component for post by user
 export const Posted = ({ postedHowTo, howToFeed, getMyPost }) => {
 	const [postedPopoverOpen, setPostedPopoverOpen] = useState(false);
 

@@ -1,5 +1,6 @@
 import * as yup from "yup";
 
+// schema for form validation
 const formSchema = yup.object().shape({
 	username: yup
 		.string()

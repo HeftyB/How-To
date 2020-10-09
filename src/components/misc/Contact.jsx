@@ -2,6 +2,7 @@ import React from "react";
 import useForm from "../../hooks/useForm";
 import { Form, FormGroup, Input, Label, Button } from "reactstrap";
 
+// component for contactUs
 export default function Contact() {
 	const [contactForm, setContactForm] = useForm("contactForm", {
 		name: "",

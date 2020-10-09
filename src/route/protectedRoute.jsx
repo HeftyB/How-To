@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Redirect } from "react-router-dom";
 
+// function reoute unauthentecated users
 export default function protectedRoute({ component: Component, ...rest }) {
 	return (
 		<Route

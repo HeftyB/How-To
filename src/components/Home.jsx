@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import Feed from "./userPage/Feed";
 
+// home page component
 export const Home = () => {
 	return (
 		<div className="homePage">

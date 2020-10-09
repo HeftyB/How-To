@@ -18,6 +18,7 @@ import {
 	Spinner,
 } from "reactstrap";
 
+// component for post feed
 export const Feed = ({
 	howToFeed,
 	savePost,

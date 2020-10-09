@@ -12,6 +12,7 @@ const initialForm = {
 	img: "",
 };
 
+// component to add post
 export function AddHowTo({ currentUser, addHowTo }) {
 	const [addHowForm, setAddHowForm] = useForm("Add How-To form", initialForm);
 	const { push } = useHistory();

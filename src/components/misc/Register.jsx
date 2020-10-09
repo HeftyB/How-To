@@ -19,6 +19,7 @@ const initialFormErrors = {
 	tos: "",
 };
 
+// user registration component
 export function Register({ registerUser, toggle }) {
 	const [registerFormValues, setRegisterFormValues, setValues] = useForm(
 		"registerForm",

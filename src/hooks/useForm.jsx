@@ -1,6 +1,7 @@
 // import { useState } from "react";
 import useLocalStorage from "./useLocalStorage";
 
+// custome hook for formdta to be stored in local storage
 export default function useForm(key, initialValue) {
 	const [values, setValues] = useLocalStorage(key, initialValue);
 

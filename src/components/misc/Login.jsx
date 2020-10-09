@@ -5,6 +5,7 @@ import { useHistory } from "react-router-dom";
 import { logInUser } from "../../store/actions";
 import { FormGroup, Form, Input, Button, Label } from "reactstrap";
 
+// user login component
 export const Login = ({ logInUser }) => {
 	const [loginForm, setLoginForm] = useForm("loginForm", {
 		username: "",

@@ -5,6 +5,7 @@ import { upvote, downvote } from "../../store/actions";
 import { axiosWithAuth } from "../../route/axiosWithAuth";
 import { Spinner, Jumbotron, Button, CardImg } from "reactstrap";
 
+// base post component
 export const HowTo = ({ howToFeed, upvote, downvote }) => {
 	const { id } = useParams();
 	const [currentPost, setCurrentPost] = useState();

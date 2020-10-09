@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { deleteSave } from "../../store/actions";
 import { Button, Popover, PopoverHeader, PopoverBody } from "reactstrap";
 
+// component for users saved post
 export const Saved = ({ savedPost, deleteSave }) => {
 	const [popoverOpen, setPopoverOpen] = useState(false);
 	const toggle = () => setPopoverOpen(!popoverOpen);

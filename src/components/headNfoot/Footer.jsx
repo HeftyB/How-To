@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
 import Toggle from "./Toggle";
 
+// footer component
 export default function Footer() {
 	return (
 		<div className="footers">

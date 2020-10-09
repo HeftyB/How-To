@@ -4,6 +4,7 @@ import classnames from "classnames";
 import Register from "./Register";
 import Login from "./Login";
 
+// component to hold register + login components
 export default function RegisterLogin() {
 	const [activeTab, setActiveTab] = useState("1");
 

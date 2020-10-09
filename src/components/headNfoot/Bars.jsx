@@ -4,6 +4,7 @@ import Posted from "../userPage/Posted";
 import Saved from "../userPage/Saved";
 import { Button } from "reactstrap";
 
+// navbar components
 export default function Bars() {
 	return (
 		<div className="bars">

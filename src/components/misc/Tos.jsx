@@ -1,5 +1,6 @@
 import React from "react";
 
+// terms of service component
 export default function Tos() {
 	return (
 		<div>
