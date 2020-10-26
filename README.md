@@ -25,6 +25,9 @@ A React app to browse, post, and vote on life hacks!
 #### Bootstrap / Reactstrap
 
 
+------------------------------------------------------------------------------
+
+
 | AvailableScripts | TERMINAL/CMD    |
 | ---------------- | --------------- |
 | START            | `npm start`     |
